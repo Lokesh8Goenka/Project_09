@@ -4,10 +4,10 @@ export const lessonContent = {
     title: 'Basics 1',
     exercises: [
       {
-        type: 'translate',
-        question: 'Hello',
-        correctAnswer: 'Hola',
-        translation: 'Hello → Hola'
+        type: 'select',
+        question: ' What is the primary mechanism by which the nitrogen-fixing bacterium Rhizobia forms a symbiotic relationship with legume plants?',
+        correctAnswer: 'Through the formation of nodules on the plants roots, where Rhizobia convert atmospheric nitrogen (N2) into a usable form',
+        options: ['Through the production of ethylene, which promotes root growth and nodulation',' By secreting enzymes that break down cellulose in the plants cell walls, allowing for nutrient uptake','Through the formation of nodules on the plants roots, where Rhizobia convert atmospheric nitrogen (N2) into a usable form','By producing a toxin that inhibits the growth of competing microorganisms']
       },
       {
         type: 'select',
@@ -16,7 +16,7 @@ export const lessonContent = {
         options: ['Buenos días', 'Buenas noches', 'Buenas tardes', 'Adiós']
       },
       {
-        type: 'match',
+        type: 'select',
         question: 'Match the pairs',
         correctAnswer: 'Thank you',
         options: ['Gracias', 'Por favor', 'De nada'],
