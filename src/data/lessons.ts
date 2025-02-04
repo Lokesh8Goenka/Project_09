@@ -16,7 +16,7 @@ export const lessons = [
   {
     title: "Basics 3",
     description: "Master fundamental Spanish concepts",
-    isLocked: true,
+    isLocked: false,
     isCompleted: false,
     xp: 20
   },
